@@ -1,0 +1,35 @@
+{
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.options": {
+    "overrideConfigFile": "./config/.eslintrc.cjs"
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.tabSize": 2,
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "*.json"
+      ],
+      "schema": {
+        "allowTrailingCommas": false
+      }
+    }
+  ],
+  "cSpell.words": [],
+  "jest.jestCommandLine": "pnpm test:unit",
+  "jest.rootPath": ".",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

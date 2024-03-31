@@ -1,0 +1,8 @@
+public
+.yarn
+.pnp.*
+dist
+coverage
+.vscode
+build
+*.html

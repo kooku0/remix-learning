@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+pnpm commitlint --config ./config/commitlint.config.ts --edit "$1"

@@ -1,0 +1,6 @@
+{
+  "*.{js,jsx,ts,tsx,yml,yaml}": [
+    "pnpm prettier --write --config=./config/.prettierrc.mjs --ignore-path=./config/.prettierignore",
+    "pnpm eslint --fix --config ./config/.eslintrc.cjs"
+  ]
+}
